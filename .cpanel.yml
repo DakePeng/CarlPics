@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/datasqua/carlpics.sites.carleton.edu/CarlPics
+    - /bin/cp index.html $DEPLOYPATH
