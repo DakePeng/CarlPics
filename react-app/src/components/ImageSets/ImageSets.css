@@ -1,0 +1,49 @@
+.image-sets {
+    align-items: center;
+    box-shadow: 10px 10px 10px #00000040;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 25px 25px;
+    justify-content: center;
+    max-width: 1525px;
+    padding: 25px;
+    position: relative;
+  }
+  
+  .image-sets .set {
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+    align-items: center;
+    backdrop-filter: blur(4px) brightness(100%);
+    border: 1px solid;
+    border-color: #0000001a;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .image-sets .pic {
+    height: 350px;
+    object-fit: cover;
+    position: relative;
+    width: 350px;
+  }
+  
+  .image-sets .text-wrapper {
+    -webkit-text-stroke: 1px #00000033;
+    color: #ffffff;
+    font-family: "Familjen Grotesk", Helvetica;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 700;
+    left: 26px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 73px;
+    width: 295px;
+  }
+  
